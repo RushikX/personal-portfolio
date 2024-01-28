@@ -169,14 +169,14 @@ body {
 
 }
 
-.marks div :hover {
+.marks :hover {
     transform: scale(1.05);
 }
 
 .marks h1 {
     text-align: center;
     color: rgb(244, 18, 18);
-
+    border: none;
     font-family: Impact;
     letter-spacing: 0.05cap;
     font-size: 50px;
@@ -231,18 +231,18 @@ th {
     border: 1px solid rgb(0, 0, 0);
     color: rgb(0, 0, 0);
     padding: 10px;
-    background-color: rgb(127, 42, 42);
+    background-color: rgb(92, 57, 57);
 
 }
 
 
 
 
-td:hover {
-    background-color: rgba(255, 0, 0, 0.714);
+/* tr:hover {
+    background-color: rgba(255, 0, 0, 0);
     transition: 0.2s;
 
-}
+} */
 
 th {
     background-color: #f2f2f2;
@@ -307,7 +307,6 @@ hr {
     font-weight: 900;
     font-family: 'Trebuchet MS', sans-serif;
     font-weight: 400;
-    transition: transform 0.3s ease-in-out;
 
 
 }
@@ -333,7 +332,7 @@ hr {
 }
 
 .achievements :hover {
-    transform: scale(1.05);
+    transform: scale(1.09);
 }
 
 .achievements h2 {
